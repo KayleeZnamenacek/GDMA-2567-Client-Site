@@ -14,32 +14,33 @@
 </head>
 
 <body>
-    <div> <!--bg img-->
-        <div class="wrapper">
-            <div>
-                <img> <!--logo-->
+    <header> <!--bg img-->
+        <div class="wrapper row">
+            <div class="col-sm-2">
+                <img src=" " alt=""> <!--logo-->
             </div>
-            <nav>
-                <ul>
-                    <li><a href=""> Home </a></li>
-                    <li><a href=""> Product </a></li>
-                    <li><a href=""> Process </a></li>
-                    <li><a href=""> Shopping </a></li>
-                    <li><a href=""> Contact </a></li>
-                </ul>
-            </nav>
+            <div class="col-lg-10">
+                <img id="hamb-nav" src="https://via.placeholder.com/100" alt="navigation">
+                <nav>
+                    <ul>
+                        <li><a href="#"> Home </a></li>
+                        <li><a href="#products"> Product </a></li>
+                        <li><a href="#process"> Process </a></li>
+                        <li><a href="#shopping"> Shopping </a></li>
+                        <li><a href="#contact"> Contact </a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
         <section class="wrapper">
-            <header>
-                <h1> Twin Finch Roastery is an authentic micro-roastery; small, dedicated, and highly focused on quality. </h1>
-            </header>
+            <h1> Twin Finch Roastery is an authentic micro-roastery; small, dedicated, and highly focused on quality. </h1>
         </section>
-    </div>
-    <section class="wrapper row">
-        <header>
-            <h2> Our Process</h2> <!--caps and underlined-->
+    </header>
+    <section class="wrapper row" id="products">
+        <header class="col-sm-12">
+            <h2> Our Products</h2> <!--caps and underlined-->
         </header>
-        <section class="col-sm-12"> <!--col-sm-12 col-md-6-->
+        <section class="col-sm-12 col-lg-6"> <!--col-sm-12 col-md-6-->
             <div> 
                 <!--img-->
             </div>
@@ -53,7 +54,7 @@
                 <p><a href="">Buy Now</a></p> <!--all caps-->
             </div>
         </section> 
-        <section class="col-sm-12"> <!--col-sm-12 col-md-6-->
+        <section class="col-sm-12 col-lg-6"> <!--col-sm-12 col-md-6-->
             <div> 
                 <!--img-->
             </div>
@@ -67,7 +68,7 @@
                 <p><a href="">Buy Now</a></p> <!--all caps-->
             </div>
         </section> 
-        <section class="col-sm-12"> <!--col-sm-12 col-md-6-->
+        <section class="col-sm-12 col-lg-4"> <!--col-sm-12 col-md-6-->
             <div> 
                 <!--img-->
             </div>
@@ -81,7 +82,7 @@
                 <p><a href="">Buy Now</a></p> <!--all caps-->
             </div>
         </section> 
-        <section class="col-sm-12"> <!--col-sm-12 col-md-6-->
+        <section class="col-sm-12 col-lg-4"> <!--col-sm-12 col-md-6-->
             <div> 
                 <!--img-->
             </div>
@@ -95,7 +96,7 @@
                 <p><a href="">Buy Now</a></p> <!--all caps-->
             </div>
         </section> 
-        <section class="col-sm-12"> <!--col-sm-12 col-md-6-->
+        <section class="col-sm-12 col-lg-4"> <!--col-sm-12 col-md-6-->
             <div> 
                 <!--img-->
             </div>
@@ -111,88 +112,103 @@
         </section>
     </section>
     <div> <!--bg yellow-->
-        <div class="wrapper"> <!--center align-->
-            <p>“This extraordinary coffee almost defies description with its aromatic complexity while retaining a classic clarity of structure.” <br>- Coffee Review </p>
+        <div class="wrapper row">
+          <div class="col-sm-12"> <!--center align-->
+              <p>“This extraordinary coffee almost defies description with its aromatic complexity while retaining a classic clarity of structure.” <br>- Coffee Review </p>
+          </div>
         </div>
     </div>
     <div> <!--bg black-->
-        <section class="wrapper">
-            <div class="col-sm-12">
+        <section class="wrapper row" id="process">
+            <div class="col-sm-12 col-lg-4">
               <header>
                   <h2> Our Process </h2>
               </header>
             </div>
-            <div class="col-sm-12"> 
+            <div class="col-sm-12 col-lg-4"> 
                 <p>We have a constantly evolving, hand picked selection of fine coffee origins and delicious blends engineered to help you brew a cafe-quality cup at home. Our coffee is roasted in a hot air, refractory lined roaster with an extraordinary level of control.  Most small coffee roasters use a single stage burner which offers virtually no control during the roasting process.  </p>
             </div>
-            <div class="col-sm-12">
+            <div class="col-sm-12 col-lg-4">
               <p> The significance of relying on a high volume of hot air to roast coffee beans can’t be understated.  The refractory significantly reduces hot spots which can damage coffee beans and produces a much more even roasting environment.</p>
               <p> Learn more about brewing </p>
-              <p> <a href=""> Read More</a></p>
+              <p> <a href="http://www.google.com" target="_blank"> Read More</a></p>
             </div>
         </section>
     </div>
     <div> <!--bg-gray-->
-        <div class="wrapper">
-            <p> Newsletter</p>
-            <p> Sign up for our newsletter, and we'll keep you updated on everything happening at Twin Finch!</p>
-        <!--form for newsletter-->
+        <div class="wrapper row">
+            <div class=" col-sm-12 col-lg-6">
+                <p> Newsletter</p>
+                <p> Sign up for our newsletter, and we'll keep you updated on everything happening at Twin Finch!</p>
+           </div> 
+            <div class="col-sm-12 col-lg-6">
+            <!--form for newsletter-->
+            </div>
         </div>
     </div>
-    <div> <!--map-->
-        <section class="wrapper">
-            <header >
-                <h2> Our Locations</h2>
-            </header>
-            <p> 457 NW Market Street <br> Porland, OR</p>
-        </section>
+    <!--<div>-->
+        <div id="map-responsive"><!--map-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.8642938570606!2d-122.68304824912053!3d45.51281037899896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950a111b946cd5%3A0x77d900bd19b3085b!2s457%20SW%20Market%20St%2C%20Portland%2C%20OR%2097201!5e0!3m2!1sen!2sus!4v1574626030298!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="wrapper row">
+          <section class="col-sm-12 col-lg-6">
+              <header>
+                  <h2> Our Locations</h2>
+              </header>
+              <p> 457 NW Market Street <br> Porland, OR</p>
+          </section>
+      </div>
     </div>
     <div><!--bg gray-->
-        <section class="wrapper row">
-            <header>
-                <h2> Online Shopping</h2>
-            </header>
-            <p>Shipping</p>
-            <p> We ship only the freshest coffee and only whole bean, but will grind for you in-store upon request</p>
-            <p> Products</p>
-            <p> Our featured coffees are roasted on a limited basis;<br>your orders could be held until the next time the batch hits the roaster</p>
-        </section>
-        <section>
-            <header>
-                <h2> Get In Touch</h2>
-            </header>
-            <!--forms-->
-        </section>
-    </div>
+      <div class="wrapper row">
+          <section class="col-sm-12 col-lg-6" id="shopping">
+              <header>
+                  <h2> Online Shopping</h2>
+              </header>
+              <p>Shipping</p>
+              <p> We ship only the freshest coffee and only whole bean, but will grind for you in-store upon request</p>
+              <p> Products</p>
+              <p> Our featured coffees are roasted on a limited basis;<br>your orders could be held until the next time the batch hits the roaster</p>
+          </section>
+          <section class="col-sm-12 col-lg-6" id="contact">
+              <header>
+                  <h2> Get In Touch</h2>
+              </header>
+              <!--forms-->
+          </section>
+      </div>
+    <!--</div>-->
     <footer> <!--bg black-->
-        <div>
-            <!--img-->
+        <div class="wrapper row">
+          <div class="col-sm-12 col-lg-2">
+              <!--img-->
+          </div>
+          <div class="col-sm-12 col-lg-10">
+              <nav>
+                  <ul>
+                      <li> <a href=""> Home </a></li>
+                      <li> <a href=""> Product </a></li>
+                      <li> <a href=""> Process </a></li>
+                      <li> <a href=""> Shipping </a></li>
+                      <li> <a href=""> Contact </a></li>
+                  </ul>
+              </nav>
+              <p> Follow Us</p>
+              <ul><!--sprites-->
+                  <li><a> Facebook</a></li>
+                  <li><a> Twitter</a></li>
+                  <li><a> Instagram</a></li>
+
+              </ul>
+          </div>
         </div>
-        <div>
-            <nav>
-                <ul>
-                    <li> <a href=""> Home </a></li>
-                    <li> <a href=""> Product </a></li>
-                    <li> <a href=""> Process </a></li>
-                    <li> <a href=""> Shipping </a></li>
-                    <li> <a href=""> Contact </a></li>
-                </ul>
-            </nav>
-            <p> Follow Us</p>
-            <ul><!--sprites-->
-                <li><a> Facebook</a></li>
-                <li><a> Twitter</a></li>
-                <li><a> Instagram</a></li>
-                
-            </ul>
-        </div>
-    
     </footer>
     
     
     
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/hamb-nav.js"> </script>
     
     <script src="js/functions.js"> </script>
     

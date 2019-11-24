@@ -38,8 +38,82 @@
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
-4.0 - ELEMENTS 
+4.0 - Elements 
 -------------------------------------------------------------- */
 
-/* -- FORMS -- */ 
+/* -- MEDIA -- */
+#map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+#map-responsive iframe{
+    left:0;
+    top:0;
+    height:80%;
+    width:100%;
+    position:absolute;
+}
+
+
+
+
+/*--------------------------------------------------------------
+6.0 - COMPONENTS 
+-------------------------------------------------------------- */
+
+/* -- NAVIGATION -- */ 
+
+#hamb-nav {
+  display: none;
+}
+            
+li{
+  list-style: none;
+  margin-left: 3em;
+}
+
+a{
+  text-decoration: none;
+}
+
+body>header nav {
+   float: right;
+}
+
+nav li {
+   display: inline-block;
+}
+
+ @media screen and (max-width: 768px) {
+                #hamb-nav {
+                    display: inline-block;
+                    float: right;
+   }
+                header nav {
+                    display: none;
+                    float: none;
+                    padding-top: 120px; 
+/* Hamburger icon is in the header on the right side, and nav expands vertically in the center of the screen below the hamburger icon, that's why I put the padding 120px, to make nav below the icon*/
+                    text-align: left;
+                }
+
+                nav li {
+                    float: none;
+                }  
+
+                nav li a {
+                    display: inline-block;
+                    margin-left: 0px;
+                    margin-top: 10px;
+                }
+            }
+
+.display {
+   display: block;
+  }
+
+
+
 
