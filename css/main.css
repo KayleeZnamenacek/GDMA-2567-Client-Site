@@ -70,6 +70,12 @@ span{
 6.0 - COMPONENTS 
 -------------------------------------------------------------- */
 
+/* -- HEADER -- */ 
+
+/*body>header{
+    background-image: url("../img/bg-coffee.jpg");
+}*/
+
 /* -- NAVIGATION -- */ 
 
 #hamb-nav {
@@ -89,7 +95,7 @@ body>header nav {
    float: right;
 }
 
-nav li {
+nav li, li {
    display: inline-block;
 }
 
@@ -101,13 +107,14 @@ nav li {
                 header nav {
                     display: none;
                     float: none;
-                    padding-top: 120px; 
+                    padding-top: 10px; 
 /* Hamburger icon is in the header on the right side, and nav expands vertically in the center of the screen below the hamburger icon, that's why I put the padding 120px, to make nav below the icon*/
                     text-align: left;
                 }
 
                 nav li {
-                    float: none;
+                    float: left;
+                    margin-left: 25px;
                 }  
 
                 nav li a {
