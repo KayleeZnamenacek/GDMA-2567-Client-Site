@@ -41,6 +41,13 @@
 4.0 - Elements 
 -------------------------------------------------------------- */
 
+/* -- FORMS -- */
+span{
+    display: none;
+}
+
+
+
 /* -- MEDIA -- */
 #map-responsive{
     overflow:hidden;
