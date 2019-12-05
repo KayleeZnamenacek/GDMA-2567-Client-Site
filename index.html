@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
     
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  
+<link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">    
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet">   
 <link rel="stylesheet" type="text/css" href="css/normalize.css">  
 <link rel="stylesheet" type="text/css" href="css/framework.css"> 
 <link rel="stylesheet" type="text/css" href="css/main.css"> 
@@ -36,6 +39,7 @@
             <h1> Twin Finch Roastery is an authentic micro-roastery; small, dedicated, and highly focused on quality. </h1>
         </section>
     </header>
+    <div class="bg-black">
     <section class="wrapper row" id="products">
         <header class="col-sm-12">
             <h2> Our Products</h2> <!--caps and underlined-->
@@ -46,7 +50,7 @@
             </div>
             <div>
               <header>
-                  <h2> Evening Oak</h2>
+                  <h3> Evening Oak</h3>
               </header>
                 <p> Medium-Dark $19.95</p>
                 <p>Pungently rich and complex with hints of night-blooming flowers and coriander in aroma and a cup. </p>
@@ -60,7 +64,7 @@
             </div>
             <div>
               <header>
-                  <h2> Finch House Blend</h2>
+                  <h3> Finch House Blend</h3>
               </header>
                 <p> Medium $17.95</p>
                 <p>Hint of citrus, complemented by flavors of dark chocolate, peanut, and light pepper notes. </p>
@@ -74,7 +78,7 @@
             </div>
             <div>
               <header>
-                  <h2> Sunrise </h2>
+                  <h3> Sunrise </h3>
               </header>
                 <p> Light $17.95</p>
                 <p>Light, fruity acidity which complements its fully nutty body and unique spicy tones.</p>
@@ -88,7 +92,7 @@
             </div>
             <div>
               <header>
-                  <h2> Midnight </h2>
+                  <h3> Midnight </h3>
               </header>
                 <p> Dark $17.95</p>
                 <p>Roasted into second crack for big, bold, and dark cup. Beans display oil.</p>
@@ -102,7 +106,7 @@
             </div>
             <div>
               <header>
-                  <h2> Espresso </h2>
+                  <h3> Espresso </h3>
               </header>
                 <p> $19.95</p>
                 <p>Clean, a little toasty, sumptuous cream, unfussy, delicious.</p>
@@ -111,14 +115,15 @@
             </div>
         </section>
     </section>
-    <div> <!--bg yellow-->
+    </div>    
+    <div class="bg-yellow"> <!--bg yellow-->
         <div class="wrapper row">
           <div class="col-sm-12"> <!--center align-->
               <p>“This extraordinary coffee almost defies description with its aromatic complexity while retaining a classic clarity of structure.” <br>- Coffee Review </p>
           </div>
         </div>
     </div>
-    <div> <!--bg black-->
+    <div class="bg-black"> <!--bg black-->
         <section class="wrapper row" id="process">
             <div class="col-sm-12 col-md-4 col-lg-4">
               <header>
@@ -135,7 +140,7 @@
             </div>
         </section>
     </div>
-    <div> <!--bg-gray-->
+    <div class="bg-gray"> <!--bg-gray-->
         <div class="wrapper row">
             <div class=" col-sm-12 col-md-6  col-lg-6">
                 <p> Newsletter</p>
@@ -155,19 +160,21 @@
         </div>
     </div>
     <div>
-        <div id="map-responsive"><!--map--> <!--find a map that works AND VALIDATES-->
+        <div id="map-responsive"><!--map--> <!--adjust the padding to make smaller-->
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.8642938570606!2d-122.68304824912053!3d45.51281037899896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950a111b946cd5%3A0x77d900bd19b3085b!2s457%20SW%20Market%20St%2C%20Portland%2C%20OR%2097201!5e0!3m2!1sen!2sus!4v1574626030298!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen=""></iframe>
         </div>
-        <div class="wrapper row">
-          <section class="col-sm-12 col-md-6  col-lg-6">
-              <header>
-                  <h2> Our Locations</h2>
-              </header>
-              <p> 457 NW Market Street <br> Porland, OR</p>
-          </section>
-      </div>
+        <div class="bg-yellow">
+            <div class="wrapper row">
+              <section class="col-sm-12 col-md-6  col-lg-6">
+                  <header>
+                      <h2> Our Locations</h2>
+                  </header>
+                  <p> 457 NW Market Street <br> Porland, OR</p>
+              </section>
+          </div>
+        </div>
     </div>
-    <div><!--bg gray-->
+    <div class="bg-gray"><!--bg gray-->
       <div class="wrapper row">
           <section class="col-sm-12 col-md-6  col-lg-6" id="shopping">
               <header>
@@ -200,7 +207,7 @@
           </section>
       </div>
     </div>
-    <footer> <!--bg black-->
+    <footer class="bg-black"> <!--bg black-->
         <div class="wrapper row">
           <div class="col-sm-12 col-md-2 col-lg-2">
               <img src="img/logo-TwinFinch.png" alt=""><!--img-->
@@ -217,7 +224,7 @@
               </nav>
             </div>
             <div class="col-sm-12 col-md-10 col-lg-10">
-                  <p> Follow Us</p>
+                  <p> Follow Us</p> <!--display inline block-->
                   <ul><!--sprites-->
                       <li><a href="https://www.facebook.com" target="_blank"> Facebook</a></li>
                       <li><a href="https://www.twitter.com" target="_blank"> Twitter</a></li>

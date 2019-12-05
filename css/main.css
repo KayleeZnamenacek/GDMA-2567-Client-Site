@@ -36,7 +36,11 @@
         - Size
 
 --------------------------------------------------------------*/
-
+*{
+    font-family: 'Muli', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+}
 /*--------------------------------------------------------------
 4.0 - Elements 
 -------------------------------------------------------------- */
@@ -65,8 +69,12 @@ span{
     position:absolute;
 }
 
+/* -- TYPOGRAPHY -- */
+h2{
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline;
 
-
+}
 
 /*--------------------------------------------------------------
 6.0 - COMPONENTS 
@@ -74,9 +82,9 @@ span{
 
 /* -- HEADER -- */ 
 
-/*body>header{
+body>header{
     background-image: url("../img/bg-coffee.jpg");
-}*/
+}
 
 /* -- NAVIGATION -- */ 
 
@@ -101,7 +109,7 @@ nav li, li {
    display: inline-block;
 }
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 574px) {
                 #hamb-nav {
                     display: inline-block;
                     float: right;
@@ -131,5 +139,26 @@ nav li, li {
   }
 
 
+
+
+
+/*--------------------------------------------------------------
+6.0 - COMPONENTS 
+-------------------------------------------------------------- */
+
+
+/* -- COLOR -- */
+
+.bg-yellow{
+    background-color: #CBA833;
+}
+
+.bg-black{
+    background-color: #150900;
+}
+
+.bg-gray{
+    background-color: #525252;
+}
 
 
