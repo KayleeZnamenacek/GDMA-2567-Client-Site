@@ -79,7 +79,13 @@
     position:absolute;
 }*/
 
+
 /* -- TYPOGRAPHY -- */
+
+h1{
+    margin-top: 10rem;
+    font-size: 1.2rem;
+}
 h2{
     font-family: 'Playfair Display', serif;
     text-decoration: underline;
@@ -93,7 +99,9 @@ h2{
 /* -- HEADER -- */ 
 
 body>header{
-    background-image: url("../img/bg-coffee.jpg");
+    background: url("../img/bg-coffee.jpg") no-repeat center;
+    background-size: cover;
+    padding-bottom: 36rem;
 }
 
 /* -- NAVIGATION -- */ 

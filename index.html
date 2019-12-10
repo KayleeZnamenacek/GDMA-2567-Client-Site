@@ -20,7 +20,7 @@
     <header> <!--bg img-->
         <div class="wrapper row">
             <div class="col-sm-2">
-                <img src="img/logo-TwinFinch.png" alt=""> <!--logo-->
+                <img src="img/logo-TwinFinch.png" alt="" data-rjs="2"> <!--logo-->
             </div>
             <div class="col-lg-10"><!--col sm class-->
                 <img id="hamb-nav" src="https://via.placeholder.com/100" alt="navigation">
@@ -155,15 +155,18 @@
                 <form>
                       <legend> <span class="getintouch">Get In Touch</span></legend>
                       <label for="email">Email</label>
-                      <input type="text" name="email" id="email">
+                      <input type="text" name="email" id="email"> 
+                    <p><input type="submit"></p>
               </form>
+              
                     
             </div>
         </div>
     </div>
     <section>
         <div id="map">
-            <div></div><!--map--> <!--adjust the padding to make smaller-->
+            <div>  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNJpZgUofyIMmPM5oY1miRstxmF0Uj_E0&callback=initMap"
+  type="text/javascript"></script></div><!--map-->
         </div>
         <div class="bg-yellow">
             <div class="wrapper row">
@@ -193,11 +196,12 @@
               </header>
               <form>
                 <legend> <span class="getintouch">Get in Touch </span></legend>
-                     <label for="firstlast"> Name:</label>
-                              <input type="text" name="name" id="firstlast">
-                    <label for="emailadd">Email:</label>
-                              <input type="text" name="email" id="emailadd">
-                    <textarea name="comment" rows="4" cols="45" placeholder="Leave us a comment"></textarea>
+                     <p><label for="firstlast"> Name:</label>
+                              <input type="text" name="name" id="firstlast"></p>
+                    <p><label for="emailadd">Email:</label>
+                              <input type="email" name="email" id="emailadd"></p>
+                    <p><textarea name="comment" rows="4" cols="45" placeholder="Leave us a comment"></textarea></p>
+                  <p><input type="submit"></p>
                 </form>
           </section>
       </div>
@@ -205,7 +209,7 @@
     <footer class="bg-black"> <!--bg black-->
         <div class="wrapper row">
           <div class="col-sm-12 col-md-2">
-              <img src="img/logo-TwinFinch.png" alt=""><!--img-->
+              <img src="img/logo-TwinFinch.png" alt="" data-rjs="2"><!--img-->
           </div>
           <div class="col-sm-12 col-md-10">
               <nav>
