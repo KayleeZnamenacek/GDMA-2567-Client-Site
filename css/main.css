@@ -55,7 +55,8 @@
 /* -- MEDIA -- */
 
  #map {
-        height: 100%;
+        height: 300px
+            ;
       }
 
  html, body {
@@ -63,21 +64,6 @@
     margin: 0;
     padding: 0;
   }
-/*#map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-    top: 0;
-    left: 0;
-}
-#map-responsive iframe{
-    left:0;
-    top:0;
-    height:80%;
-    width:100%;
-    position:absolute;
-}*/
 
 
 /* -- TYPOGRAPHY -- */
