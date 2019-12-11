@@ -50,13 +50,14 @@
     display: none;
 }
 
-
+form{
+    margin-top: 1.2em;
+}
 
 /* -- MEDIA -- */
 
  #map {
-        height: 300px
-            ;
+        height: 300px;
       }
 
  html, body {
@@ -64,6 +65,25 @@
     margin: 0;
     padding: 0;
   }
+#map-yellow>section{
+     padding: 86px 50px;
+}
+
+#map-location [class*="col-sm-12"]{
+    padding: 0;
+    margin: 0;
+}
+@media screen and (min-width: 1024px) {
+    #map-yellow{
+    position: absolute;
+    left: 130px;
+    bottom: -2082px;
+}
+
+
+
+}
+
 
 
 /* -- TYPOGRAPHY -- */
@@ -75,7 +95,30 @@ h1{
 h2{
     font-family: 'Playfair Display', serif;
     text-decoration: underline;
+    font-size: 1.5em;
+    letter-spacing: .1em;
 
+}
+
+nav li a{
+    text-transform: uppercase;
+}
+
+nav li a:hover{
+    color: #CBA833;
+    text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
+6.0 - COMPONENTS 
+-------------------------------------------------------------- */
+
+
+
+/* -- BUTTONS -- */
+
+.btn-yellow{
+    background-color: #CBA833;
 }
 
 /*--------------------------------------------------------------
@@ -150,6 +193,11 @@ nav li, li {
 6.0 - COMPONENTS 
 -------------------------------------------------------------- */
 
+
+/* -- ALIGNMENTS -- */
+#center{
+    text-align: center;
+}
 
 /* -- COLOR -- */
 
