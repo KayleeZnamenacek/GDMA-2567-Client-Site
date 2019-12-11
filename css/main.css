@@ -68,7 +68,7 @@ form{
     padding: 0;
   }
 #map-yellow>section{
-     padding: 86px 50px;
+     padding: 60px 50px;
 }
 
 #map-location [class*="col-sm-12"]{
@@ -92,7 +92,7 @@ form{
     #map-yellow{
     position: absolute;
     left: 130px;
-    bottom: -2082px;
+    bottom: -2240px;
 }
 
 }
