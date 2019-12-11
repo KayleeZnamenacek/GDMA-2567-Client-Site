@@ -107,9 +107,11 @@ h1{
 }
 h2{
     font-family: 'Playfair Display', serif;
-    text-decoration: underline;
+    border-bottom: .01em solid #fff;
+    padding: 1em 0;
     font-size: 1.6em;
     letter-spacing: .09em;
+    text-transform: uppercase;
 
 }
 
