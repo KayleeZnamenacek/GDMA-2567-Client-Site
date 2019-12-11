@@ -73,14 +73,25 @@ form{
     padding: 0;
     margin: 0;
 }
+
+/*medium display positioning that messes everything up*/
+/*@media screen and (min-width: 768px) {
+    #map-yellow{
+    position: absolute;
+    left: 20px;
+    top: 3170px;
+}
+    #map-yellow>section{
+        padding: 80px 40px;
+    }
+
+}*/ 
 @media screen and (min-width: 1024px) {
     #map-yellow{
     position: absolute;
     left: 130px;
     bottom: -2082px;
 }
-
-
 
 }
 
@@ -118,7 +129,13 @@ nav li a:hover{
 /* -- BUTTONS -- */
 
 .btn-yellow{
-    background-color: #CBA833;
+    background-color: #CCA81A;
+    padding: .5rem 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn-yellow:hover{
+    background-color: #FFD358 ; 
 }
 
 /*--------------------------------------------------------------
@@ -141,8 +158,10 @@ body>header{
             
 li{
   list-style: none;
-  margin-left: 3em;
+  margin-left: 2em;
 }
+
+
 
 a{
   text-decoration: none;
