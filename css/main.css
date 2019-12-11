@@ -52,6 +52,8 @@
 
 form{
     margin-top: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
 }
 
 /* -- MEDIA -- */
@@ -106,9 +108,13 @@ h1{
 h2{
     font-family: 'Playfair Display', serif;
     text-decoration: underline;
-    font-size: 1.5em;
-    letter-spacing: .1em;
+    font-size: 1.6em;
+    letter-spacing: .09em;
 
+}
+
+h3{
+    font-size: 1.3em;
 }
 
 nav li a{
@@ -118,6 +124,10 @@ nav li a{
 nav li a:hover{
     color: #CBA833;
     text-transform: uppercase;
+}
+
+blockquote{
+    padding: 2em;
 }
 
 /*--------------------------------------------------------------
@@ -130,10 +140,17 @@ nav li a:hover{
 
 .btn-yellow{
     background-color: #CCA81A;
-    padding: .5rem 1.2rem;
     text-transform: uppercase;
     font-weight: 700;
+    padding: .4em .9em;
+    border: none;
+    font-size: .8em;
+   
 }
+form:first-of-type [class="btn-yellow"]{
+     margin-left: 1em;
+}
+
 .btn-yellow:hover{
     background-color: #FFD358 ; 
 }
