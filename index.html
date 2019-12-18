@@ -96,9 +96,9 @@
                 <p><a href="https://www.shopify.com" target="_blank" class="btn-yellow">Buy Now</a></p> <!--all caps-->
             </div>
         </section> 
-        <div class="col-sm-12 col-md-4 "> <!--col-sm-12 col-md-6-->
+        <section class="col-sm-12 col-md-4 "> <!--col-sm-12 col-md-6-->
                 <img src="img/twin-finch-packaging.png" alt="" class="img-responsive" data-rjs="2"><!--img-->
-            <section>
+            <div>
               <header>
                   <h3> Espresso </h3>
               </header>
@@ -106,8 +106,8 @@
                 <p>Clean, a little toasty, sumptuous cream, unfussy, delicious.</p>
                 <p> Latin America, Africa, Indonesia </p>
                 <p><a href="https://www.shopify.com" target="_blank" class="btn-yellow">Buy Now</a></p> <!--all caps-->
-            </section>
-        </div>
+            </div>
+        </section>
     </section>
     </div>    
     <div class="bg-yellow"> <!--bg yellow-->
@@ -137,15 +137,15 @@
     </div>
     <div class="bg-gray"> <!--bg-gray-->
         <div class="wrapper row">
-            <div class=" col-sm-12 col-md-6">
-                <p> Newsletter</p>
+            <header class=" col-sm-12 col-md-6">
+                <h2> Newsletter</h2>
                 <p> Sign up for our newsletter, and we'll keep you updated on everything happening at Twin Finch!</p>
-           </div> 
+           </header> 
 
             <!--form for newsletter-->
                 <form class="col-sm-12 col-md-6">
                       <p><label for="email">Email</label></p>
-                      <input type="text" name="email" id="email"> 
+                      <input type="email" name="email" id="email"> 
                     <input type="submit" class="btn-yellow">
               </form>
               
@@ -155,13 +155,13 @@
     <div id="map-location">
         <div id="map"><!--map-->
         </div>
-        <div class="row">
+        <div class="wrapper row">
             <div class="col-sm-12 col-md-4"  id="map-yellow">
               <section class="bg-yellow">
                   <header>
                       <h2> Our Locations</h2>
                   </header>
-                  <p> 457 NW Market Street <br> Porland, OR</p>
+                  <p> 457 NW Market Street Porland, OR</p>
               </section>
           </div>
         </div>
@@ -172,10 +172,19 @@
               <header>
                   <h2> Online Shopping</h2>
               </header>
-              <p>Shipping</p>
-              <p> We ship only the freshest coffee and only whole bean, but will grind for you in-store upon request</p>
-              <p> Products</p>
-              <p> Our featured coffees are roasted on a limited basis;<br>your orders could be held until the next time the batch hits the roaster</p>
+              <div>
+                  <header>
+                      <h3>Shipping</h3>
+                  </header> 
+                  <p> We ship only the freshest coffee and only whole bean, but will grind for you in-store upon request</p>
+              </div>
+               <div>
+                  <header>
+                    <h3> Products</h3>
+                   </header>
+              </div>
+             
+              <p> Our featured coffees are roasted on a limited basis; your orders could be held until the next time the batch hits the roaster</p>
           </section>
           <section class="col-sm-12 col-md-6" id="contact">
               <header>
@@ -183,7 +192,7 @@
               </header>
               <form>
                      <p><label for="firstlast"> Name</label></p>
-                              <input type="text" name="name" id="firstlast">
+                              <input type="text" name="first-last-name" id="firstlast">
                     <p><label for="emailadd">Email</label></p>
                               <input type="email" name="email" id="emailadd">
                     <p>Comments</p>
