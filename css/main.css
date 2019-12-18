@@ -52,29 +52,13 @@
 
 form{
     margin-top: 1.2em;
-    text-transform: uppercase;
     margin-bottom: 1em;
 }
 
 /* -- MEDIA -- */
 
- #map {
-        height: 300px;
-      }
 
- html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-#map-yellow>section{
-     padding: 60px 50px;
-}
 
-#map-location [class*="col-sm-12"]{
-    padding: 0;
-    margin: 0;
-}
 
 /*medium display positioning that messes everything up*/
 /*@media screen and (min-width: 768px) {
@@ -109,24 +93,19 @@ h2{
     font-family: 'Playfair Display', serif;
     border-bottom: .01em solid #fff;
     padding: 1em 0;
-    font-size: 1.6em;
+    font-size: 1.6rem;
     letter-spacing: .09em;
-    text-transform: uppercase;
 
 }
 
 h3{
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
-nav li a{
-    text-transform: uppercase;
+h2, nav li a, .btn-yellow{
+     text-transform: uppercase;
 }
 
-nav li a:hover{
-    color: #CBA833;
-    text-transform: uppercase;
-}
 
 blockquote{
     padding: 2em;
@@ -142,11 +121,10 @@ blockquote{
 
 .btn-yellow{
     background-color: #CCA81A;
-    text-transform: uppercase;
     font-weight: 700;
     padding: .4em .9em;
     border: none;
-    font-size: .8em;
+    font-size: .8rem;
    
 }
 form:first-of-type [class="btn-yellow"]{
@@ -157,9 +135,20 @@ form:first-of-type [class="btn-yellow"]{
     background-color: #FFD358 ; 
 }
 
-/*--------------------------------------------------------------
-6.0 - COMPONENTS 
--------------------------------------------------------------- */
+
+#map {
+      height: 300px;
+    }
+
+#map-yellow>section{
+     padding: 60px 50px;
+}
+
+#map-location [class*="col-sm-12"]{
+    padding: 0;
+    margin: 0;
+}
+
 
 /* -- HEADER -- */ 
 
@@ -194,7 +183,7 @@ nav li, li {
    display: inline-block;
 }
 
- @media screen and (max-width: 574px) {
+ @media screen and (min-width: 574px) {
                 #hamb-nav {
                     display: inline-block;
                     float: right;
@@ -226,9 +215,8 @@ nav li, li {
 
 
 
-
 /*--------------------------------------------------------------
-6.0 - COMPONENTS 
+7.0 - UTILITIES 
 -------------------------------------------------------------- */
 
 
